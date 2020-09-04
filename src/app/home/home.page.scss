@@ -1,0 +1,81 @@
+//hide info while not hovering over icon
+#names, #mailer, #birthday, #pindrop, #ContactDetail, #password {
+    display: none;
+}
+
+//structure
+#credentials, #emailAddress, #DoB, #Location, #PhoneNum, #Pass {
+    margin: -30px 0 0 0;
+}
+
+.button{
+    max-width: 200px;
+}
+
+.label{
+    width: 100%; 
+    text-align: center;
+}
+
+ion-item{
+    padding-bottom:48px;
+}
+
+ion-avatar{
+    width:10%; 
+    height: 100%; 
+    margin: auto;
+}
+
+ion-tab-button:hover{
+    ion-icon{
+        color: aqua
+    }
+}
+
+// Hover effect to display information
+#credentials:hover #names {
+    display:block;
+    position: absolute;
+    padding: 8px 0 0 0;
+}
+
+#emailAddress:hover #mailer {
+    display:block;
+    position: absolute;
+    padding: 8px 0 0 0;
+}
+
+#DoB:hover #birthday {
+    display:block;
+    position: absolute;
+    padding: 8px 0 0 0;
+}
+
+#Location:hover #pindrop {
+    display:block;
+    position: absolute;
+    padding: 8px 0 0 0;
+}
+
+#PhoneNum:hover #ContactDetail {
+    display:block;
+    position: absolute;
+    padding: 8px 0 0 0;
+}
+
+#Pass:hover #password {
+    display:block;
+    position: absolute;
+    padding: 8px 0 0 0;
+}
+
+.avatar{
+    width: auto; 
+    height: auto;
+}
+
+#names{
+    
+}
+
