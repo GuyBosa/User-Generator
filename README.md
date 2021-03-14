@@ -1,5 +1,7 @@
 # Profile-Generator
 a basic profile generator using ionic 3 and https://randomuser.me/ api
+![Screenshot (224)](https://user-images.githubusercontent.com/40579537/111054366-d1734f80-8474-11eb-9a77-01d89d181b32.png)
+
 
 ### Resource
 
